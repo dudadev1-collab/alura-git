@@ -53,6 +53,143 @@ body{overflow-x:clip}
 @media(max-width:1000px){.artist-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.brand-grid.streamers{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.artist-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.artist-name{min-height:78px;gap:8px;padding:13px 10px}.artist-name strong{font-size:12px}.work-grid{grid-template-columns:1fr 1fr;gap:10px}.work-card{min-height:120px;padding:16px}.work-card strong{font-size:18px}.brand-grid.distributors{grid-template-columns:1fr 1fr}.platform-brand{min-height:141px;padding:12px}.platform-brand img{max-width:135px;height:48px}.platform-brand .brand-icon{height:49px;width:49px}.platform-title{display:block}.platform-title p{margin-top:9px}.footer-email{width:100%}}
 @media(max-width:360px){.artist-name strong{font-size:11px}.brand-grid.distributors,.brand-grid.streamers{grid-template-columns:1fr 1fr}.work-grid{grid-template-columns:1fr}}
+
+/* ============================================================
+   SONHOS MUSIC · OFF-WHITE CONCEPT
+   Visual variant only. No original page content or actions changed.
+   ============================================================ */
+:root{
+  color-scheme:light;
+  --bg:#f9f6ef;
+  --alt:#f1ecdf;
+  --card:#fffcf5;
+  --gold:#997026;
+  --ink:#211e1b;
+  --muted:#5f5952;
+  --line:rgba(129,95,47,.23);
+}
+body{background:var(--bg);color:var(--ink)}
+::selection{background:rgba(181,144,68,.28);color:#211e1b}
+header{background:rgba(249,246,239,.98)}
+.nav a{color:#504a43}
+.logo .clef,.wordmark small{color:#a77b31}
+a:hover{color:#90651e}
+.ticker{background:#e9dfc8}
+.tick-half span{color:#76551e}
+.kicker{color:#916723}
+.btn{background:linear-gradient(125deg,#d6b979,#b99042);border-color:#b99042;color:#1f1910;box-shadow:0 5px 18px rgba(159,115,32,.14)}
+.btn:hover{color:#211a11;background:#e3c78e}
+.btn.outline{background:transparent;border-color:#b7914d;color:#76551f;box-shadow:none}
+.btn.outline:hover{background:#b9904218;color:#51390f}
+.hero{
+  background:
+    radial-gradient(ellipse at 76% 24%,rgba(212,166,89,.2),transparent 46%),
+    radial-gradient(ellipse at 14% 90%,rgba(195,149,75,.1),transparent 55%),
+    linear-gradient(120deg,#fffdfa,#f6f0e3);
+}
+.hero::before{color:rgba(154,108,43,.08)}
+.hero p,.section-top p,.about-copy p,.steps p{color:#5c554d}
+.visual{
+  border-color:rgba(145,101,32,.21);
+  background:
+    radial-gradient(ellipse at 94% 14%,rgba(201,153,69,.18),transparent 52%),
+    linear-gradient(145deg,#fffdfa,#eee5d5);
+  box-shadow:0 24px 75px rgba(84,58,30,.13);
+}
+.visual::before{
+  border-color:rgba(141,97,43,.2);
+  box-shadow:0 0 0 25px rgba(197,147,73,.035),0 0 0 55px rgba(197,147,73,.022)
+}
+.visual-head{color:#946923}
+.visual-title{color:#211b15}
+.wave:before{background:repeating-linear-gradient(0deg,transparent 0,transparent 49px,rgba(128,93,39,.14) 50px)}
+.wave i{background:linear-gradient(180deg,#b88a35,#dbbd81)}
+.visual-foot{color:#685e52}
+.section.alt{background:var(--alt)}
+.card{
+  background:linear-gradient(155deg,rgba(197,152,77,.11),transparent 49%),#fffcf7;
+  border-color:rgba(154,112,51,.2);
+  box-shadow:0 10px 32px rgba(115,86,50,.035)
+}
+.card:hover{border-color:#b38e4b;box-shadow:0 13px 34px rgba(147,109,50,.1)}
+.card p{color:#61584e}
+.card a{color:#885f24}
+.card .icon{color:#ae8339}
+.extras span{color:#665e54}
+.chip{border-color:#b79b6d;background:#fefaf1;color:#856125}
+#sobre{
+  background:
+    radial-gradient(ellipse at 24% 44%,rgba(198,156,86,.18),transparent 44%),
+    linear-gradient(120deg,#f1eadc,#f8f3ea);
+}
+.orbit{background:radial-gradient(circle,rgba(212,168,92,.09),transparent 55%)}
+.orbit-ring{border-color:rgba(146,104,48,.35)}
+.orbit-ring.inner{border-color:rgba(146,104,48,.2)}
+.orbit-label{
+  background:transparent!important;
+  border:0!important;
+  color:#815918;
+  text-shadow:0 1px 6px rgba(255,255,255,.95);
+}
+.orbit-logo img{filter:drop-shadow(0 3px 10px rgba(125,78,22,.18))}
+.steps article>span{color:rgba(158,112,38,.68)}
+.artist-name{
+  background:linear-gradient(130deg,rgba(200,159,91,.16),rgba(255,255,255,.44));
+  border-color:rgba(145,106,49,.2)
+}
+.artist-name:hover{background:rgba(193,148,76,.19)}
+.artist-name strong{color:#2d2620}
+.artist-index{color:#8a6328}
+.roster-signature .roster-wave{color:#a37b38}
+.work-card{
+  background:linear-gradient(155deg,rgba(202,155,80,.12),rgba(255,255,255,.35) 75%);
+  border-color:rgba(147,105,48,.23);
+}
+.work-card strong{color:#231e19}
+.work-tag{background:rgba(165,119,39,.12);color:#7c561f}
+.brand-grid .platform-brand{
+  border:1px solid rgba(151,106,43,.21);
+  background:radial-gradient(ellipse at 50% 2%,rgba(211,170,100,.13),transparent 72%),rgba(255,255,255,.65);
+  box-shadow:0 12px 25px rgba(135,95,35,.055)
+}
+.platform-brand span{color:#383029}
+.platform-brand .brand-icon{filter:none}
+.platform-brand .platform-fallback{color:#987125}
+.platform-title p{color:#64584d}
+.contact-grid>div>p{color:#5f554a}
+.contact-email,.footer-email{color:#815919}
+.field label{color:#393027}
+.field input,.field textarea,.field select{
+  border-bottom:1px solid rgba(72,58,45,.36);
+  color:#221c16;
+  background:transparent
+}
+.field input:focus,.field textarea:focus,.field select:focus{border-bottom-color:#ac8337}
+.field input::placeholder,.field textarea::placeholder{color:#898076;opacity:1}
+.field select option{background:#fffdf8;color:#251e16}
+.error{color:#b73527}
+.consent{color:#61584e}
+.consent input{accent-color:#a77b31}
+.note{color:#6a6158}
+footer{background:linear-gradient(180deg,#ebe4d6,#f6f1e9)}
+.footer-top p,.footer-bottom{color:#63594d}
+.social a{border-color:rgba(139,100,43,.36);color:#88601e}
+.social a:hover{background:rgba(167,119,49,.11);border-color:#ab833e}
+.social span{color:#5b5146}
+dialog{background:#fffaf2;color:#241e17;border-color:rgba(151,105,44,.37);box-shadow:0 23px 90px rgba(58,43,26,.32)}
+dialog::backdrop{background:rgba(25,21,17,.54)}
+dialog p{color:#63594b}
+.modal-close{color:#5a4e42}
+.contact-summary{background:rgba(191,145,69,.1);color:#78531d}
+.mobile-menu{color:#8c6325;border-color:rgba(139,100,43,.3)}
+@media(max-width:860px){
+  .nav.open{background:#fffaf2;box-shadow:0 18px 35px rgba(67,43,20,.18)}
+  .nav.open a{color:#43392d}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;scroll-behavior:auto!important}
+}
+
 </style></head><body id="topo">
 <div class="ticker"><div class="tick-track" aria-label="Serviços Sonhos Music"><div class="tick-half"><span><b>✦</b> Obras & repertórios</span><span><b>✦</b> Fonogramas</span><span><b>✦</b> Estratégia musical</span><span><b>✦</b> Mercado audiovisual</span><span><b>✦</b> Distribuição digital</span><span><b>✦</b> Gestão autoral</span></div><div class="tick-half" aria-hidden="true"><span><b>✦</b> Obras & repertórios</span><span><b>✦</b> Fonogramas</span><span><b>✦</b> Estratégia musical</span><span><b>✦</b> Mercado audiovisual</span><span><b>✦</b> Distribuição digital</span><span><b>✦</b> Gestão autoral</span></div></div></div>
 <header><div class="wrap head"><a class="logo" href="#topo"><span class="clef" aria-hidden="true">𝄞</span><span class="wordmark"><strong>SONHOS</strong><small>MUSIC</small></span></a><nav class="nav" id="mainNav"><a href="#servicos">O que fazemos</a><a href="#sobre">Sobre</a><a href="#processo">Como funciona</a><a href="#artistas">Artistas</a><a href="#projetos">Projetos</a><a href="#distribuicao">Distribuição</a><a href="#contato">Contato</a></nav><a class="btn outline" href="#contato">Vamos conversar</a><button class="mobile-menu" id="menu" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">☰</button></div></header>
