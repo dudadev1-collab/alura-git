@@ -361,6 +361,15 @@ dialog p{color:#63594b}
  .logo-marquee.service-marquee .logo-marquee-track{animation:none!important}
 }
 
+
+/* Correção pontual: limpar as linhas residuais das bordas das duas logos */
+#artistas .logo-tile img[src$="/claudinho-do-baile.webp"],
+#projetos .logo-tile img[src$="/a-fabrika.webp"]{
+  border:0!important;
+  outline:0!important;
+  box-shadow:none!important;
+  clip-path:inset(8px 9px 8px 9px);
+}
 </style></head><body id="topo">
 <div class="ticker"><div class="tick-track" aria-label="Serviços Sonhos Music"><div class="tick-half"><span><b>✦</b> Obras & repertórios</span><span><b>✦</b> Fonogramas</span><span><b>✦</b> Estratégia musical</span><span><b>✦</b> Mercado audiovisual</span><span><b>✦</b> Distribuição digital</span><span><b>✦</b> Gestão autoral</span></div><div class="tick-half" aria-hidden="true"><span><b>✦</b> Obras & repertórios</span><span><b>✦</b> Fonogramas</span><span><b>✦</b> Estratégia musical</span><span><b>✦</b> Mercado audiovisual</span><span><b>✦</b> Distribuição digital</span><span><b>✦</b> Gestão autoral</span></div></div></div>
 <header><div class="wrap head"><a class="logo" href="#topo"><span class="clef" aria-hidden="true">𝄞</span><span class="wordmark"><strong>SONHOS</strong><small>MUSIC</small></span></a><nav class="nav" id="mainNav"><a href="#servicos">O que fazemos</a><a href="#sobre">Sobre</a><a href="#processo">Como funciona</a><a href="#artistas">Artistas</a><a href="#projetos">Projetos</a><a href="#distribuicao">Distribuição</a><a href="#contato">Contato</a></nav><a class="btn outline" href="#contato">Vamos conversar</a><button class="mobile-menu" id="menu" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">☰</button></div></header>
